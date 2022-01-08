@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/westleyc30/alternity-roller/issues"
   },
-  "homepage": "https://github.com/westleyc30/alternity-roller#readme"
+  "homepage": "https://github.com/westleyc30/alternity-roller#readme",
+  "dependencies": {
+    "sass": "^1.47.0"
+  }
 }
