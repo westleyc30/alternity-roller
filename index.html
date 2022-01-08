@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alternity</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="roll-container">
+        <h1>Alternity Roller</h1>
+        <div class="display">
+          <div class="display--dice">
+            <div>
+              <h3>situation die:</h3>
+              <div class="base"></div>
+            </div>
+            <div>
+              <h3>modifier die:</h3>
+              <div class="modifier"></div>
+            </div>
+          </div>
+          <div class="display--total">
+            <h3>TOTAL:</h3>
+            <div class="total"></div>
+          </div>
+        </div>
+        <div class="slider-container">
+          <label for="stepScale">step bonus/penalty:</label>
+          <input
+            type="range"
+            min="-5"
+            max="7"
+            value="1"
+            class="slider"
+            id="stepScale"
+          />
+          <div class="stepValue"></div>
+        </div>
+        <button class="roll">Roll</button>
+      </div>
+    </div>
+  </body>
+</html>
